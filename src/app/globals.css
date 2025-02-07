@@ -2,7 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
 body {
   color: rgb(229, 231, 235);
-  background: #1c1c1c;
+  background: #111111;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  border-bottom: 1px solid #2e2e2e;
+}
+
+footer {
+  border-top: 1px solid #2e2e2e;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
